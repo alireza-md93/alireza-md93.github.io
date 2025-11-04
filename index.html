@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alireza Mohammadidoost - GPU Software Engineer</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation Menu -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">AM</div>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#publications" class="nav-link">Publications</a></li>
+                <li><a href="#experience" class="nav-link">Experience</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Home Section -->
+    <section id="home" class="section home-section">
+        <div class="container">
+            <div class="home-content">
+                <div class="profile-picture-container">
+                    <img src="profile.jpeg" alt="Alireza Mohammadidoost" class="profile-picture">
+                </div>
+                <h1 class="name-title">Alireza Mohammadidoost</h1>
+                <h2 class="subtitle">GPU Software Engineer</h2>
+                <p class="specialization">Kernel Performance Optimization & HPC System Software Development</p>
+                <div class="description">
+                    <p>I turn hardware into speed.</p>
+                    <p>With <strong>10 years</strong> of experience in developing <strong>real-time</strong> and high-performance computing <strong>(HPC)</strong> software, I specialize in parallel computing and <strong>GPU kernel performance optimization</strong> that squeezes every cycle from modern architectures.</p>
+                    <p>I'm proficient in <strong>algorithm</strong> design and tuning to <strong>maximize hardware utilization</strong> through detailed analysis of <strong>kernel-level</strong> and <strong>system-level</strong> performance characteristics. I'm deeply familiar with <strong>modern GPU</strong> architectures and skilled in <strong>C/C++</strong>, <strong>CUDA</strong>, <strong>Python</strong>, <strong>NVIDIA Nsight Compute</strong>, <strong>NVIDIA Nsight Systems</strong>, <strong>Linux bash scripting</strong>, <strong>SLURM</strong>, and <strong>Docker</strong>.</p>
+                    <p>My background spans <strong>AI accelerators</strong>, <strong>transformer architectures</strong>, <strong>bioinformatics algorithms</strong>, dynamic programming, and signal processing. I also have hands-on experience with <strong>computer architecture</strong>, <strong>hardware simulation</strong>, and multi-node cluster optimization for heterogeneous systems.</p>
+                    <p>I'm passionate about data networks, emerging computing technologies, and pushing the boundaries of performance engineering.</p>
+                </div>
+                <div class="scroll-indicator">
+                    <span>Scroll to explore</span>
+                    <div class="arrow">↓</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Projects Section -->
+    <section id="projects" class="section projects-section">
+        <div class="container">
+            <h2 class="section-title">Featured Projects</h2>
+            <div class="projects-grid">
+                <!-- Project 1 -->
+                <a href="https://github.com/alireza-md93/GPU-Accelerated-Viterbi-Decoder" target="_blank" rel="noopener noreferrer" class="project-card">
+                    <h3 class="project-title">GPU-Accelerated Viterbi Decoder</h3>
+                    <p class="project-description">High-performance <strong>100 Gb/s CUDA</strong> implementation of the Viterbi algorithm with an <strong>Object-oriented</strong> design and a user-friendly <strong>API</strong>.</p>
+                    <ul class="project-features">
+                        <li>Novel <strong>State-Exchange</strong> algorithm leveraging <strong>warp-level</strong> programming to minimize synchronization overhead and maximize <strong>L2 cache utilization</strong></li>
+                        <li><strong>Persistent kernel</strong> design minimizing intermediate memory footprint </li>
+                        <li>Multi-format support: 1-bit, 4-bit, 8-bit and floating-point</li>
+                        <li>Dual processing cores: integer core with <strong>DPX SIMD</strong> intrinsics and floating-point core with <strong>half2 SIMD</strong> intrinsics</li>
+                    </ul>
+                </a>
+
+                <!-- Project 2 -->
+                <a href="https://github.com/alireza-md93/MIPS-Processor-Simulation" target="_blank" rel="noopener noreferrer" class="project-card">
+                    <h3 class="project-title">MIPS Processor Simulation</h3>
+                    <p class="project-description">A comprehensive <strong>Verilog simulation</strong> of a simplified MIPS processor featuring advanced architectural capabilities accompanied by a python <strong>assembler</strong> script.</p>
+                    <ul class="project-features">
+                        <li><strong>Pipelined multi-cycle</strong> architecture with comprehensive <strong>hazard handling</strong> (data, control, and structural)</li>
+                        <li><strong>Von Neumann</strong> architecture featuring unified instruction and data memory</li>
+                        <li>Efficient <strong>conflict resolution</strong> between instruction fetch and data access stages</li>
+                        <li>Complete <strong>programming guide</strong> and sample assembly code for the insertion sort algorithm</li>
+                    </ul>
+                </a>
+
+                <!-- Project 3 -->
+                <a href="https://github.com/alireza-md93/TSP" target="_blank" rel="noopener noreferrer" class="project-card">
+                    <h3 class="project-title">Travelling Salesman Problem (TSP) Solver</h3>
+                    <p class="project-description">A high-performance <strong>Python library</strong> solving the <strong>Traveling Salesman Problem</strong> (TSP) with performance optimizations using <strong>parallel computing</strong> and <strong>machine-learning</strong> techniques.</p>
+                    <ul class="project-features">
+                        <li><strong>Branch pruning</strong> based on the best-known (last minimum) tour cost to aggressively reduce search space</li>
+                        <li><strong>ML-guided</strong> branch ordering: <strong>Random Forest</strong> and <strong>Neural Network</strong> models trained to prioritize promising branches</li>
+                        <li><strong>Single-core and multi-core</strong> solver implementations</li>
+                        <li><strong>Full report</strong> documenting algorithms, training methodology, experimental setup, and performance results</li> 
+                    </ul>
+                </a>
+
+                <!-- Project 4 -->
+                <a href="https://github.com/alireza-md93/NBody-sim" target="_blank" rel="noopener noreferrer" class="project-card">
+                    <h3 class="project-title">N-Body Gravity Simulation</h3>
+                    <p class="project-description">Interactive <strong>Python-based simulation</strong> of gravitational dynamics in an N-body system with customizable parameters.</p>
+                    <ul class="project-features">
+                        <li>Random body generation with customizable mass and size ranges</li>
+                        <li><strong>Real-time animated</strong> visualization of gravitational interactions</li>
+                        <li><strong>Color-coded</strong> visualization based on body mass</li>
+                        <li>Flexible simulation parameters for experimentation</li>
+                    </ul>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="section experience-section">
+        <div class="container">
+            <h2 class="section-title">Experience</h2>
+            <div class="timeline">
+                <!-- Experience 1 -->
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <div class="experience-header">
+                            <h3 class="experience-title">High-Performance Computing Intern</h3>
+                            <span class="company">NVIDIA</span>
+                            <span class="location">Santa Clara</span>
+                        </div>
+                        <div class="experience-date">Jul 2024 - Sep 2024</div>
+                        <ul class="experience-details">
+                            <li>Modified an open-source benchmark to optimize <strong>memory traffic</strong> across a <strong>multi-node HPC cluster</strong> equipped with <strong>modern GPUs</strong>, based on detailed performance analysis from <strong>NVIDIA Nsight System</strong>.</li>
+                            <li>Developed a <strong>workload manager script in Linux Bash</strong> as an abstraction layer over <strong>SLURM</strong>, automating build, execution, profiling, and structured log/report generation for GPU workloads</li>
+                            </ul>
+                    </div>
+                </div>
+
+                <!-- Experience 2 -->
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <div class="experience-header">
+                            <h3 class="experience-title">GPU Software Engineer</h3>
+                            <span class="company">Learning and Intelligent Systems (LIS) Research Center</span>
+                            <!-- <span class="location">Sharif</span> -->
+                        </div>
+                        <div class="experience-date">Jun 2018 - Dec 2021</div>
+                        <ul class="experience-details">
+                            <li>Led development of an <strong>industry-grade product</strong> from system architecture, maintaining a <strong>C++ codebase of 100K+ lines</strong> with IP protection through code obfuscation and hardware tokens</li>
+                            <li>Designed a <strong>real-time</strong> and <strong>high-performance dataflow pipeline</strong> on a heterogeneous system combining <strong>multi-GPU, CPU, FPGA</strong> co-processors with PCIe drivers, and a <strong>RAID 0 SSD array</strong> for high-throughput storage</li>
+                            <li>Built a <strong>thread-safe middleware</strong> using <strong>circular-buffer</strong> data structures to integrate heterogeneous devices, tolerant of varying batch sizes and latency constraints while ensuring full data integrity</li>
+                            <li>Tuned OS-level parameters (CPU affinity, memory reservation) for latency-sensitive processes</li>
+                            <li>Optimized mathematical algorithms in <strong>CUDA C++</strong> based on MATLAB simulations, leveraging unified memory, multi-streaming, and <strong>tensor cores</strong> on modern NVIDIA GPUs</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="section education-section">
+        <div class="container">
+            <h2 class="section-title">Education</h2>
+            <div class="timeline">
+                <!-- Education 1 -->
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <div class="education-header">
+                            <h3 class="education-degree">MSc, Computer Engineering</h3>
+                            <span class="education-institution">University of California San Diego</span>
+                        </div>
+                        <div class="education-date">Jan 2022 - Jun 2024</div>
+                    </div>
+                </div>
+
+                <!-- Education 2 -->
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <div class="education-header">
+                            <h3 class="education-degree">MSc, Electrical Engineering</h3>
+                            <span class="education-institution">Sharif University of Technology</span>
+                        </div>
+                        <div class="education-date">Sep 2016 - Jun 2018</div>
+                    </div>
+                </div>
+
+                <!-- Education 3 -->
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <div class="education-header">
+                            <h3 class="education-degree">BSc, Electrical Engineering</h3>
+                            <span class="education-institution">Sharif University of Technology</span>
+                        </div>
+                        <div class="education-date">Sep 2012 - Jun 2016</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Publications Section -->
+    <section id="publications" class="section publications-section">
+        <div class="container">
+            <h2 class="section-title">Publications</h2>
+            <div class="publications-grid">
+                <!-- Publication 1 -->
+                <!-- <a href="https://www.isca-archive.org/isca2022/aacbb.html" target="_blank" rel="noopener noreferrer" class="publication-card">
+                    <div class="publication-content">
+                        <h3 class="publication-title">Skipping Wavefronts in Pairwise Alignment</h3>
+                        <p class="publication-authors">A. Mohammadidoost, K. Smith, Y. Turakhia</p>
+                        <p class="publication-venue">AACBB Workshop, ISCA 2022</p>
+                    </div>
+                </a> -->
+
+                <!-- Publication 2 -->
+                <a href="https://arxiv.org/abs/2011.13579" target="_blank" rel="noopener noreferrer" class="publication-card">
+                    <div class="publication-content">
+                        <h3 class="publication-title">High-Throughput Parallel Viterbi Decoder on GPU Tensor Cores</h3>
+                        <p class="publication-authors">A. Mohammadidoost, M. Hashemi</p>
+                        <p class="publication-venue">arXiv preprint</p>
+                    </div>
+                </a>
+
+                <!-- Publication 3 -->
+                <a href="https://arxiv.org/abs/2011.09337" target="_blank" rel="noopener noreferrer" class="publication-card">
+                    <div class="publication-content">
+                        <h3 class="publication-title">High-Throughput and Memory-Efficient Parallel Viterbi Decoder for Convolutional Codes on GPU</h3>
+                        <p class="publication-authors">A. Mohammadidoost, M. Hashemi</p>
+                        <p class="publication-venue">arXiv preprint</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section contact-section">
+        <div class="container">
+            <h2 class="section-title">Contact</h2>
+            <div class="contact-grid">
+                <!-- Location -->
+                <a href="#" class="contact-card">
+                    <div class="contact-icon">
+                        <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                            <circle cx="12" cy="10" r="3"></circle>
+                        </svg>
+                    </div>
+                    <h3 class="contact-title">Location</h3>
+                    <p class="contact-info">San Diego, CA</p>
+                </a>
+
+                <!-- Email -->
+                <a href="mailto:alireza.md.ece@gmail.com" class="contact-card">
+                    <div class="contact-icon">
+                        <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                            <polyline points="22,6 12,13 2,6"></polyline>
+                        </svg>
+                    </div>
+                    <h3 class="contact-title">Email</h3>
+                    <p class="contact-info">Share your thoughts</p>
+                </a>
+
+                <!-- LinkedIn -->
+                <a href="https://www.linkedin.com/in/alireza-md93" target="_blank" rel="noopener noreferrer" class="contact-card">
+                    <div class="contact-icon">
+                        <svg width="48" height="48" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
+                        </svg>
+                    </div>
+                    <h3 class="contact-title">LinkedIn</h3>
+                    <p class="contact-info">Let's connect</p>
+                </a>
+
+                <!-- GitHub -->
+                <a href="https://github.com/alireza-md93" target="_blank" rel="noopener noreferrer" class="contact-card">
+                    <div class="contact-icon">
+                        <svg width="48" height="48" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
+                        </svg>
+                    </div>
+                    <h3 class="contact-title">GitHub</h3>
+                    <p class="contact-info">Check out my projects</p>
+                </a>
+
+                <!-- Google Scholar -->
+                <a href="https://scholar.google.com/citations?user=H7gmwQEAAAAJ&hl=en" target="_blank" rel="noopener noreferrer" class="contact-card">
+                    <div class="contact-icon">
+                        <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M22 10v6M2 10l10-5 10 5-10 5z"></path>
+                            <path d="M6 12v5c3 3 9 3 12 0v-5"></path>
+                            <line x1="12" y1="22" x2="12" y2="5"></line>
+                        </svg>
+                    </div>
+                    <h3 class="contact-title">Google Scholar</h3>
+                    <p class="contact-info">View publications</p>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Alireza Mohammadidoost. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
+
